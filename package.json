@@ -1,0 +1,25 @@
+{
+  "name": "sexybot",
+  "version": "1.0.0",
+  "description": "A Discord bot to entertain your guild with limitless charm",
+  "main": "sexybot.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Signus/sexybot.git"
+  },
+  "author": "Signus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Signus/sexybot/issues"
+  },
+  "homepage": "https://github.com/Signus/sexybot#readme",
+  "dependencies": {
+    "discord-akairo": "^6.1.2",
+    "discord.js": "^11.0.0",
+    "dotenv": "^4.0.0",
+    "request": "^2.81.0"
+  }
+}
