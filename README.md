@@ -23,6 +23,7 @@ $ node sexybot.js
 ## Commands
  - `!brainyquote` : Produces a ~~random~~ quote from brainyquote.com
  - `!catdog` : Returns a random picture of a cat or dog. Also accepts `!cat` and `!dog`
+ - `!coin`: Flip a coin
  - `!hash` : Generates a hash digest for a provided string
  - `!insult` : Generates a random insult
  - `!lmgt` : Generates a lmgtfy.com query from the provided string
@@ -34,7 +35,6 @@ $ node sexybot.js
 In the progress of building a bunch of random commands for fun!
  - `cah` : Play a game of Cards Against Humanity
  - `clue` : "@Signus did it with the candlestick in the library"
- - `coin`: Flip a coin
  - `currency` : Convert currencies
  - `dice` : Roll a die
  - `dj` : Music server
