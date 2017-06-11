@@ -3,22 +3,22 @@
 *   Picks a random insult, and you can @ someone
 */
 
-// TODO: Create list of insult generators to choose from.
-// TODO: Detect if user mention doesn't exactly match member.
+// TODO: Randomize across insult APIs/libraries
+// TODO: Add https://github.com/jacc/yomamma
+// TODO: Add https://github.com/tomcheng/insults
+// TODO: Force insults to require a group or user. If group, make plural.
 
 const { Command } = require('discord-akairo');
 const request = require('request');
 
-// Utilizes Ryan McGreal's Elizabethan Insult Generator
-// http://quandyfactory.com/insult
 function generateInsult(callback) {
-    const insultURL = 'http://quandyfactory.com/insult/json';
+    const insultURL = 'https://insult.mattbas.org/api/insult.json';
 
     request({
         url: insultURL,
         json: true
     }, function (err, resp, body) {
-        callback(body.insult.replace(/.$/, ""));
+        callback(body.insult);
     });
 }
 
